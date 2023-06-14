@@ -1,23 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import {Home} from "./pages/Home";
+import {Home} from "./pages/Home/Home";
 
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { CustomProvider } from "rsuite";
+import { ParallaxProvider } from 'react-scroll-parallax';
+
+import "rsuite/styles/index.less"; // or 'rsuite/dist/rsuite.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <CustomProvider theme="light">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<App />} />
-          <Route path="/home/" element={<Home />} />
-          {/* <Route path="/users/*" element={<UserApp />} /> */}
-        </Routes>
+        <ParallaxProvider>
+          <Routes>
+            <Route path="/" element={<App />} />
+            <Route path="/home/" element={<Home />} />
+          </Routes>
+        </ParallaxProvider>
       </BrowserRouter>
     </CustomProvider>
   </React.StrictMode>

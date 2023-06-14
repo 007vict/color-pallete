@@ -1,0 +1,14 @@
+
+
+.navbar__verticalShow {
+    display: none;
+}
+
+@media screen and (max-width: 426px) {
+    .navbar__horinzotalShow {
+        display: none;
+    }
+    .navbar__verticalShow {
+        display: contents;
+    }
+}

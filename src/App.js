@@ -1,12 +1,11 @@
 import { useState } from "react";
-import "./App.css";
-import HomeIcon from '@rsuite/icons/legacy/Home';
+import { Link } from 'react-router-dom';
 
+import HomeIcon from '@rsuite/icons/legacy/Home';
+import FlexboxGridItem from "rsuite/esm/FlexboxGrid/FlexboxGridItem";
 import { 
-  useToaster, 
   Header, 
   Nav,
-  Navbar,
   Container, 
   Sidebar, 
   Button, 
@@ -22,16 +21,11 @@ import {
   Footer, 
   Checkbox,
   FlexboxGrid } from "rsuite";
-import "rsuite/styles/index.less"; // or 'rsuite/dist/rsuite.min.css'
-import "./assets/styles/custom-theme.less"; // Style customization.
-import FlexboxGridItem from "rsuite/esm/FlexboxGrid/FlexboxGridItem";
-import { Link } from 'react-router-dom'
 
 function App() {
   const [type, setType] = useState("warning");
   const [placement, setPlacement] = useState("right");
   const [active, setActive] = useState('home');
-  const toaster = useToaster();
 
   const message = (
     <Message showIcon type={type} closable>
@@ -62,11 +56,10 @@ function App() {
   };
 
   const CustomNav = ({ active, onSelect, ...props }) => {
-
     return (
-      <Nav {...props} vertical activeKey={active} onSelect={onSelect} style={{ width: '98%' }}>
+      <Nav {...props} vertical activeKey={active} onSelect={onSelect} >
         <Nav.Item eventKey="home" icon={<HomeIcon />}>
-          <Link to="/blog">Home</Link>
+          <Link to="/home">Home</Link>
         </Nav.Item>
         <Nav.Item eventKey="news">News</Nav.Item>
         <Nav.Item eventKey="solutions">Solutions</Nav.Item>
@@ -79,9 +72,9 @@ function App() {
   return (
     <div className="App">
       <Container style={containerMain}>
-      <Sidebar style={{background: '#469597'}}>
-        <CustomNav appearance="subtle" active={active} onSelect={setActive}/>
-      </Sidebar>
+        <Sidebar style={{background: '#469597'}}>
+          <CustomNav appearance="subtle" active={active} onSelect={setActive}/>
+        </Sidebar>
       <Container>
         <Header style={{background: '#BBC6C8'}}>
           <Navbar appearance='subtle' active={active} onSelect={setActive} />
