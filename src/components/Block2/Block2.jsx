@@ -1,22 +1,43 @@
 import React from "react";
-import { Stack } from "rsuite";
-import { Parallax } from "react-scroll-parallax";
+import { Button, Container, Stack } from "rsuite";
+import { SectionContent } from "../SectionContent/SectionContent";
+
+import styles from "./Block2.module.scss"
+
+const ImageBlock2 = () => {
+  return (
+    <React.Fragment>
+      <img className={styles.imgBlock2} src={process.env.PUBLIC_URL + "/img/homeBlock2.jpeg"} alt="Home" />
+    </React.Fragment>
+  )
+}
+
+const DescriptionBlock2 = () => {
+  return (
+    <React.Fragment>
+      <Stack wrap
+        className={styles.descriptionBlock2}
+        alignItems="flex-start"
+        direction="column"
+        justifyContent="space-around"
+        id={styles.mobile}
+      >
+        <h2>Коттеджи и дома</h2>
+        <p>Мы строим дома и коттеджи или выполним отдельные строительные работы по заливке фундаментов, возведению стен и кровли, отделке фасадов из различных материалов..</p>
+        <Button size="lg" appearance="ghost" id={styles.btn}>Порфолио</Button>
+      </Stack>
+    </React.Fragment>
+  )
+}
 
 const Block2 = () => {
-  return <React.Fragment>
-    <Parallax speed={0}>
-      <Stack style={{
-        height: '100vh',
-        color: '#fff',
-        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(${process.env.PUBLIC_URL + './img/wallpaper.jpeg'})`,
-      }}>
-        <h1 className="text-8xl text-white font-thin">
-          Строительство загородных домов,<br />
-                коттеджей в Бресте и <br />
-                Бресткой области
-        </h1>
-      </Stack>
-    </Parallax>
-  </React.Fragment>;
+  return (
+    <Container className={styles.wrapper}>
+      <SectionContent>
+        <ImageBlock2/>
+        <DescriptionBlock2/>
+      </SectionContent>
+    </Container>
+  )
 };
  export default Block2

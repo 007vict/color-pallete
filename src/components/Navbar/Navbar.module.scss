@@ -1,14 +1,21 @@
-
-
 .navbar__verticalShow {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__horinzotalShow {
     display: none;
+  }
+  .navbar__verticalShow {
+    display: contents;
+  }
 }
 
 @media screen and (max-width: 426px) {
-    .navbar__horinzotalShow {
-        display: none;
-    }
-    .navbar__verticalShow {
-        display: contents;
-    }
+  // .navbar__horinzotalShow {
+  //   display: none;
+  // }
+  // .navbar__verticalShow {
+  //   display: contents;
+  // }
 }

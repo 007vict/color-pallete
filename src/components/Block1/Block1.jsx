@@ -3,13 +3,13 @@ import { Stack } from "rsuite";
 import { Parallax } from "react-scroll-parallax";
 
 import styles from "./Block1.module.scss";
-import { Section } from "../Section/Section";
+import { SectionContent } from "../SectionContent/SectionContent";
 
 const Block1 = () => {
   return (
     <Parallax speed={-15}>
       <section className={styles.wrapperBlock1}>
-        <Section>
+        <SectionContent>
           <Stack
             wrap
             direction="column"
@@ -38,7 +38,7 @@ const Block1 = () => {
               </h2>
             </Stack.Item>
           </Stack>
-        </Section>
+        </SectionContent>
       </section>
     </Parallax>
   );

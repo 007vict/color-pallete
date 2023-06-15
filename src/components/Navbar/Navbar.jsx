@@ -8,14 +8,15 @@ import {
   Drawer,
   ButtonToolbar,
   Button,
+  IconButton
 } from "rsuite";
 
-import HomeIcon from "@rsuite/icons/legacy/Home";
 import PhoneIcon from "@rsuite/icons/Phone";
+import HomeIcon from "@rsuite/icons/legacy/Home";
 import Burger from "../../components/UI/Burger/Burger";
+import AlignJustifyIcon from '@rsuite/icons/legacy/AlignJustify';
 
 import styles from "./Navbar.module.scss";
-import { Block } from "@rsuite/icons";
 
 const NavbarMain = () => {
   const [open, setOpen] = React.useState(false);
@@ -85,9 +86,7 @@ const NavbarMain = () => {
           <FlexboxGrid.Item className={styles.navbar__verticalShow}>
 
             <ButtonToolbar>
-              <Button appearance="primary" onClick={() => setOpen(true)}>
-                Open
-              </Button>
+              <IconButton icon={<AlignJustifyIcon  onClick={() => setOpen(true)} />} />
             </ButtonToolbar>
 
             <Drawer
@@ -103,6 +102,7 @@ const NavbarMain = () => {
               </Drawer.Body>
             </Drawer>
           </FlexboxGrid.Item>
+
         </FlexboxGrid>
       </Navbar>
     </Affix>
