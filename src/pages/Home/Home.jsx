@@ -1,8 +1,9 @@
 import {Header, Content, Footer, Container} from 'rsuite'
 
 import Navbar from "../../components/Navbar/Navbar";
-import Block1 from "../../components/Block1/Block1";
-import Block2 from "../../components/Block2/Block2";
+import BlockMain from "../../components/BlockMain/BlockMain";
+import BlockHouse from "../../components/BlockHouse/BlockHouse";
+import { BorderClinkers } from '../../components/BlockBorderClinker/BorderClinkers'
 
 
 export const Home = () => {
@@ -10,10 +11,11 @@ export const Home = () => {
     <Container>
       <Header><Navbar/></Header>
       <Content>
-        <Block1/>
-        <Block2/>
+        <BlockMain/>
+        <BlockHouse/>
+        <BorderClinkers />
       </Content>
-      <Footer></Footer>
+      <Footer> </Footer>
     </ Container>
   );
 };

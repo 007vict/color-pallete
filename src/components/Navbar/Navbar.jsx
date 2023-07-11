@@ -7,7 +7,6 @@ import {
   Affix,
   Drawer,
   ButtonToolbar,
-  Button,
   IconButton
 } from "rsuite";
 
