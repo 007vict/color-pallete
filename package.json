@@ -2,6 +2,7 @@
   "name": "color-pallete",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/007vict/color-pallete",
   "dependencies": {
     "@rsuite/icons": "^1.0.2",
     "@testing-library/jest-dom": "^5.16.5",
@@ -26,6 +27,8 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-app-rewired eject"
   },
@@ -48,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "scss-reset": "^1.4.2"
   }
 }
