@@ -5,7 +5,7 @@ import {Row, Col, Image, Typography, Button} from 'antd'
 import styles from "./BorderClinkers.module.scss"
 
 // eslint-disable-next-line no-unused-vars
-const BorderClinkers = () => {
+export const BorderClinkers = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);
   const refAnimation = useRef(null)
 
@@ -82,4 +82,4 @@ const BorderClinkers = () => {
   </div>;
 };
 
-export { BorderClinkers };
+// export BorderClinkers;
