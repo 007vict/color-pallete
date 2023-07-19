@@ -8,16 +8,17 @@
 }
 
 .images {
-  height: 65vh;
-  border-radius: 20px ;
+  height: 60vh;
+  background-color: #adcce9;
+  z-index: -4;
   div {
     position: relative;
     .img1 {
       position: absolute;
-      width: 90%;
+      width: 99%;
       content: "";
-      top: 0;
-      left: -10px;
+      top: -20px;
+      left: -20px;
       z-index: -3;
       border-radius: 20px;
     }
@@ -25,17 +26,25 @@
   }
   .img2 {
     position: absolute;
-    width: 320px;
+    width: 335px;
     content: "";
-    top: 360px;
-    right: 30px;
+    top: 340px;
+    right: 50px;
     z-index: -2;
     border-radius: 20px;
   }
 }
 
 .desc {
-  height: 61vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  gap: 25px;
+  padding: 30px;
+  height: 60vh;
   border-radius: 20px;
   background-color: #e9f2fa;
+  .btn1 {
+    width: 50%;
+  }
 }

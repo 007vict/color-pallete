@@ -1,6 +1,6 @@
 import {SectionContent} from "../SectionContent/SectionContent";
-import {useRef} from "react";
-import {Row, Col} from "antd";
+import React, {useRef} from "react";
+import {Row, Col, Button} from "antd";
 
 import styles from "./BlockRoof.module.scss"
 
@@ -10,7 +10,7 @@ export const BlockRoof = () => {
     <div>
       <SectionContent ref={refAnimation} >
         <Row className={styles.roww}>
-          <Col className={styles.images}  span={13} >
+          <Col className={styles.images} span={13} >
             <div>
               <img className={styles.img1} src={process.env.PUBLIC_URL + "img/img32.jpg"} alt="img33" />
             </div>
@@ -19,7 +19,11 @@ export const BlockRoof = () => {
             </div>
           </Col>
           <Col className={styles.desc} span={9} >
-            <h1>Text</h1>
+            <h2>Крыша</h2>
+            <p>Построим вашу крышу любой сложности - двухскатную, ломанную и другие виды.</p>
+            <Button type={'default'} ghost size={'large'} className={styles.btn1} style={{border: "2px solid #000000", color: "#000000"}}>
+              <strong>Портфолио</strong>
+            </Button>
           </Col>
         </Row>
       </SectionContent>
