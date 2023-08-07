@@ -12,10 +12,10 @@ export const BlockRoof = () => {
         <Row className={styles.roww}>
           <Col className={styles.images} lg={13} md={20} >
             <div>
-              <img className={styles.img1} src={process.env.PUBLIC_URL + "img/2023-06-0610.33.02.jpg"} alt="img33" />
+              <img className={styles.img1} src={process.env.PUBLIC_URL + "img/img32.jpg"} alt="img33" />
             </div>
             <div>
-              <img className={styles.img2} src={process.env.PUBLIC_URL + "img/img32.jpg"} alt="img30" />
+              <img className={styles.img2} src={process.env.PUBLIC_URL + "img/2023-06-0610.33.02.jpg"} alt="img30" />
             </div>
           </Col>
           <Col className={styles.desc} lg={9} md={20}>
