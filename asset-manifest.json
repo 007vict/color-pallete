@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.13c1bbed.css",
-    "main.js": "/static/js/main.dcafc1fb.js",
-    "static/js/787.225e38a9.chunk.js": "/static/js/787.225e38a9.chunk.js",
-    "static/media/wallpaper.jpeg": "/static/media/wallpaper.b24b0617e9a5d336d2dc.jpeg",
-    "index.html": "/index.html",
-    "main.13c1bbed.css.map": "/static/css/main.13c1bbed.css.map",
-    "main.dcafc1fb.js.map": "/static/js/main.dcafc1fb.js.map",
-    "787.225e38a9.chunk.js.map": "/static/js/787.225e38a9.chunk.js.map"
+    "main.css": "/007vict/color-pallete/static/css/main.db56d803.css",
+    "main.js": "/007vict/color-pallete/static/js/main.b4201d07.js",
+    "static/js/787.225e38a9.chunk.js": "/007vict/color-pallete/static/js/787.225e38a9.chunk.js",
+    "static/media/wallpaper.jpeg": "/007vict/color-pallete/static/media/wallpaper.b24b0617e9a5d336d2dc.jpeg",
+    "index.html": "/007vict/color-pallete/index.html",
+    "main.db56d803.css.map": "/007vict/color-pallete/static/css/main.db56d803.css.map",
+    "main.b4201d07.js.map": "/007vict/color-pallete/static/js/main.b4201d07.js.map",
+    "787.225e38a9.chunk.js.map": "/007vict/color-pallete/static/js/787.225e38a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13c1bbed.css",
-    "static/js/main.dcafc1fb.js"
+    "static/css/main.db56d803.css",
+    "static/js/main.b4201d07.js"
   ]
 }
