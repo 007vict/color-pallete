@@ -1,3 +1,4 @@
+@import "src/assets/styles/index";
 
 .roww {
   height: inherit;
@@ -48,9 +49,7 @@
   height: 60vh;
   border-radius: 20px;
   background-color: #e9f2fa;
-  .btn1 {
-    width: 50%;
-  }
+  z-index: -1;
 }
 
 @media (min-width: 2600px) {

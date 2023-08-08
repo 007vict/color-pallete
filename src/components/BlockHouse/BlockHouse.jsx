@@ -27,7 +27,7 @@ const DescriptionBlock2 = () => {
       >
         <h2>Коттеджи и дома</h2>
         <p className={styles.text}>Мы строим дома и коттеджи или выполним отдельные строительные работы по заливке фундаментов, возведению стен и кровли, отделке фасадов из различных материалов..</p>
-        <Button size="lg" appearance="ghost" id={styles.btn}>Порфолио</Button>
+        <Button size="lg" appearance="ghost" id={styles.btn}>Портфолио</Button>
       </Stack>
     </React.Fragment>
   )

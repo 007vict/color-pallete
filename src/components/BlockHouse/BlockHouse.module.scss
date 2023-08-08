@@ -1,4 +1,5 @@
 @import "./../../assets/styles/variabless.scss";
+@import "/src/assets/styles/index";
 
 .wrapper {
   position: relative;
@@ -59,7 +60,6 @@
   .wrapper {
     height: 70vh;
   }
-
   .descriptionBlock2 {
     & p {
       font-size: 23px;

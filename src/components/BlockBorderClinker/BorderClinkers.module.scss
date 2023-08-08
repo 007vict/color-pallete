@@ -1,3 +1,4 @@
+@import "src/assets/styles/index";
 .wrap {
   display: flex;
 }
@@ -19,7 +20,7 @@
     padding: 30px 60px;
     border-left: 1px solid lightsteelblue;
     border-right: 1px solid lightsteelblue;
-
+    z-index: 1;
     & span {
       width: 80%;
     }
@@ -40,10 +41,6 @@
 .columnn {
   position: relative;
   height: 40%;
-}
-
-.btn1 {
-  width: 50%;
 }
 
 .title {
