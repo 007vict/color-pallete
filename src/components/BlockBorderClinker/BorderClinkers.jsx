@@ -49,8 +49,8 @@ export const BorderClinkers = () => {
               </Col>
 
               <Col className={[styles.columnn, styles.column2]} lg={{span: 11}} md={{span: 23}}>
-                <Typography.Title className={styles.title}>Заборы</Typography.Title>
-                <Typography.Text>
+                <h4 className={styles.title}>Заборы</h4>
+                <Typography.Text style={{color: '#575757', lineHeight: 1.1}}>
                   Выкладываем заборы из кирпича по вашему дизайну любой сложности.
                 </Typography.Text>
                 <Button type={'default'} ghost size={'middle'} className={styles.btn1}>
@@ -59,8 +59,8 @@ export const BorderClinkers = () => {
               </Col>
 
               <Col className={[styles.columnn, styles.column3]} lg={{span: 11}} md={{span: 23}}>
-                <Typography.Title className={styles.title}>Облицовка дома</Typography.Title>
-                <Typography.Text>
+                <h4 className={styles.title}>Облицовка дома</h4>
+                <Typography.Text style={{color: '#575757', lineHeight: 1.1}}>
                   Облицовываем дома, бани и другие строения кирпичами качественно и в срок.
                 </Typography.Text>
                 <Button type={'default'} ghost size={'middle'}  className={styles.btn1}>

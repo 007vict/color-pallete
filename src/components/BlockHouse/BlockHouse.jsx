@@ -1,5 +1,6 @@
 import React, {useEffect, useState, useRef} from "react";
-import { Button, Stack } from "rsuite";
+import { Stack } from "rsuite";
+import {Button} from "antd";
 import { SectionContent } from "../SectionContent/SectionContent";
 
 import styles from "./BlockHouse.module.scss"
@@ -25,9 +26,13 @@ const DescriptionBlock2 = () => {
         justifyContent="space-around"
         id={styles.mobile}
       >
-        <h2>Коттеджи и дома</h2>
+        <h4>Коттеджи и дома</h4>
         <p className={styles.text}>Мы строим дома и коттеджи или выполним отдельные строительные работы по заливке фундаментов, возведению стен и кровли, отделке фасадов из различных материалов..</p>
-        <Button size="lg" appearance="ghost" id={styles.btn}>Портфолио</Button>
+        <Button type={"default"} ghost size={'middle'} className={styles.btn1}>
+          <strong>
+            Портфолио
+          </strong>
+        </Button>
       </Stack>
     </React.Fragment>
   )

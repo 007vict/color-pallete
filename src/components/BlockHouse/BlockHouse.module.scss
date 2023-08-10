@@ -16,7 +16,7 @@
   height: 395px;
   border-radius: 26px;
   object-fit: cover;
-  z-index: +1;
+  z-index: 2;
   transition: all ease-in 1000ms;
   transform: translateX(-200px);
   opacity: 0;
@@ -34,8 +34,12 @@
   height: 400px;
   background-color: $backg-col-desc;
   padding: 30px 30px 30px 300px;
+  z-index: 1;
   & p {
     font-size: 20px;
+  }
+  & .btn1 {
+    width: 100%;
   }
 }
 

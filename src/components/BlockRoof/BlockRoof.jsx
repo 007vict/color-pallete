@@ -19,8 +19,8 @@ export const BlockRoof = () => {
             </div>
           </Col>
           <Col className={styles.desc} lg={9} md={24}>
-            <h2>Крыша</h2>
-            <p style={{fontSize: 16}}>Построим вашу крышу любой сложности - двухскатную, ломанную и другие виды.</p>
+            <h4>Крыша</h4>
+            <p style={{fontSize: 14}}>Построим вашу крышу любой сложности - двухскатную, ломанную и другие виды.</p>
             <Button type={'default'} ghost size={'middle'} className={styles.btn1}>
               <strong>Портфолио</strong>
             </Button>
