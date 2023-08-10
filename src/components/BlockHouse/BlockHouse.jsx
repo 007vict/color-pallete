@@ -38,7 +38,7 @@ const DescriptionBlock2 = () => {
   )
 }
 
-const BlockHouse = () => {
+export const BlockHouse = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);
   const ref = useRef(null)
 
@@ -71,4 +71,3 @@ const BlockHouse = () => {
     </div>
   )
 };
- export default BlockHouse

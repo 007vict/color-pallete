@@ -5,7 +5,7 @@ import { Parallax } from "react-scroll-parallax";
 import styles from "./BlockMain.module.scss";
 import { SectionContent } from "../SectionContent/SectionContent";
 
-const BlockMain = () => {
+export const BlockMain = () => {
   return (
     <Parallax speed={-15}>
       <section className={styles.wrapperBlock1}>
@@ -43,5 +43,3 @@ const BlockMain = () => {
     </Parallax>
   );
 };
-
-export default BlockMain;

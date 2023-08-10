@@ -17,7 +17,7 @@ import AlignJustifyIcon from '@rsuite/icons/legacy/AlignJustify';
 
 import styles from "./Navbar.module.scss";
 
-const NavbarMain = () => {
+export const NavbarMain = () => {
   const [open, setOpen] = React.useState(false);
   const [active, setActive] = React.useState("home");
 
@@ -107,5 +107,3 @@ const NavbarMain = () => {
     </Affix>
   );
 };
-
-export default NavbarMain;
