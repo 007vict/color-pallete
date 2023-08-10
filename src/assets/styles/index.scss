@@ -58,3 +58,21 @@
     background-position: 100% 50%;
   }
 }
+
+@media (max-width: 1270px) {
+  .btn1 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .btn1 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 661px) {
+  .btn1 {
+    width: 55%;
+  }
+}
