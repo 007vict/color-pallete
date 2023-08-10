@@ -1,12 +1,13 @@
 @import "./variabless.scss";
 
 .btn1 {
-  --border-width: 1px;
+  --border-width: 2px;
   position: relative;
   color: #0f131a !important;
-  width: 50%;
+  width: 35%;
   background: #e9f2fa !important;
   border: none;
+  text-transform: uppercase;
 }
 .btn1::before {
   position: absolute;

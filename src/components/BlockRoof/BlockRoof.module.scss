@@ -43,7 +43,7 @@
 .desc {
   display: flex;
   flex-direction: column;
-  justify-content: center ;
+  justify-content: center;
   gap: 25px;
   padding: 30px;
   height: 60vh;
@@ -94,13 +94,14 @@
   .images, .desc {
     height: 55vh;
   }
-
-    .img2 {
-      width: 40%;
-      top: 14rem;
-      left: 4rem;
-    }
-
+  .img2 {
+    width: 40%;
+    top: 14rem;
+    left: 4rem;
+  }
+  .btn1 {
+    width: 50%;
+  }
 }
 
 @media (max-width: 991px) and (min-width: 661px) {
@@ -113,7 +114,8 @@
   }
   .images {
     div .img1 {
-      width: 60%;
+      width: 55%;
+      top: -40px;
       left: 3rem;
     }
     div .img2 {
@@ -142,6 +144,9 @@
       top: 5.5rem;
       right: 2.7rem;
     }
+  }
+  .btn1 {
+    width: 50%;
   }
 }
 

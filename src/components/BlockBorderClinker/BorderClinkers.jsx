@@ -53,7 +53,7 @@ export const BorderClinkers = () => {
                 <Typography.Text>
                   Выкладываем заборы из кирпича по вашему дизайну любой сложности.
                 </Typography.Text>
-                <Button type={'default'} ghost size={'large'} className={styles.btn1}>
+                <Button type={'default'} ghost size={'middle'} className={styles.btn1}>
                   <strong>Портфолио</strong>
                 </Button>
               </Col>
@@ -63,7 +63,7 @@ export const BorderClinkers = () => {
                 <Typography.Text>
                   Облицовываем дома, бани и другие строения кирпичами качественно и в срок.
                 </Typography.Text>
-                <Button type={'default'} ghost size={'large'}  className={styles.btn1}>
+                <Button type={'default'} ghost size={'middle'}  className={styles.btn1}>
                   <strong>Портфолио</strong>
                 </Button>
               </Col>
