@@ -53,8 +53,8 @@ export const NavbarMain = () => {
 
           <FlexboxGrid.Item className={styles.navbar__horinzotalShow}>
             <Nav vertical>
-              <Nav.Item icon={<HomeIcon />}>Главная</Nav.Item>
-              <Nav.Item icon={<HomeIcon />}>Дома</Nav.Item>
+              <Nav.Item href={'/'} icon={<HomeIcon />}>Главная</Nav.Item>
+              <Nav.Item href={'house'} icon={<HomeIcon />}>Дома</Nav.Item>
               <Nav.Item icon={<HomeIcon />}>Крыши</Nav.Item>
               <Nav.Item icon={<HomeIcon />}>Облицовка</Nav.Item>
               <Nav.Item icon={<HomeIcon />}>Заборы</Nav.Item>

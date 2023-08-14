@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import Example from "./Example";
 import reportWebVitals from "./reportWebVitals";
-import {Home} from "./pages/Home/Home";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { CustomProvider } from "rsuite";
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 import "rsuite/styles/index.less"; // or 'rsuite/dist/rsuite.min.css'
+import {House} from "./pages/House/House";
+import {App} from "./App";
+import {Home} from "./pages/Home/Home"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,10 +18,13 @@ root.render(
     <CustomProvider theme="light">
       <BrowserRouter>
         <ParallaxProvider>
-          <Routes>
-            <Route path="/" element={<App />} />
-            <Route path="/home/" element={<Home />} />
-          </Routes>
+            <Routes>
+              <Route path="/example" element={<Example />} />
+              <Route path="/" element={<App />}>
+                <Route index element={<Home />} />
+                <Route path='house' element={<House />} />
+              </Route>
+            </Routes>
         </ParallaxProvider>
       </BrowserRouter>
     </CustomProvider>
