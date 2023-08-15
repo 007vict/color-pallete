@@ -11,6 +11,7 @@ import "rsuite/styles/index.less"; // or 'rsuite/dist/rsuite.min.css'
 import {House} from "./pages/House/House";
 import {App} from "./App";
 import {Home} from "./pages/Home/Home"
+import {Roof} from "./pages/Roof/Roof";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,6 +24,7 @@ root.render(
               <Route path="/" element={<App />}>
                 <Route index element={<Home />} />
                 <Route path='house' element={<House />} />
+                <Route path='roof' element={<Roof />} />
               </Route>
             </Routes>
         </ParallaxProvider>
