@@ -57,7 +57,7 @@ export const NavbarMain = () => {
               <Nav.Item href={'/'} icon={<HomeIcon />}>Главная</Nav.Item>
               <Nav.Item href={'house'} icon={<HomeIcon />}>Дома</Nav.Item>
               <Nav.Item href={'roof'} icon={<HomeIcon />}>Крыши</Nav.Item>
-              <Nav.Item icon={<HomeIcon />}>Облицовка</Nav.Item>
+              <Nav.Item href={'clinker'} icon={<HomeIcon />}>Облицовка</Nav.Item>
               <Nav.Item icon={<HomeIcon />}>Заборы</Nav.Item>
             </Nav>
           </FlexboxGrid.Item>
