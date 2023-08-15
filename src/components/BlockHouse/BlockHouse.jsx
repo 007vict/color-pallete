@@ -9,8 +9,8 @@ import cn from "classnames"
 const ImageBlock2 = () => {
   return (
     <div>
-      <img className={cn(styles.imgBlock2)} 
-                        src={process.env.PUBLIC_URL + "/img/homeBlock2.jpeg"} 
+      <img className={cn(styles.imgBlock2)}
+                        src={process.env.PUBLIC_URL + "/images/homeBlock2.jpeg"}
                         alt="Home" />
     </div>
   )

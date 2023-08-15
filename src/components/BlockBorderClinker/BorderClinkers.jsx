@@ -42,7 +42,7 @@ export const BorderClinkers = () => {
                 <Image
                   height={'100%'}
                   width={'100%'}
-                  src={process.env.PUBLIC_URL + 'img/img10.jpg'}
+                  src={process.env.PUBLIC_URL + 'images/img10.jpg'}
                   style={{objectFit: 'cover', objectPosition: '50% 50%', boxShadow: '5px 5px 20px 0 rgba(0,0,0,0.4)'}}
                 />
               </Col>
@@ -71,7 +71,7 @@ export const BorderClinkers = () => {
                 <Image
                   height={'100%'}
                   width={'100%'}
-                  src={process.env.PUBLIC_URL + 'img/img03.jpg'}
+                  src={process.env.PUBLIC_URL + 'images/img03.jpg'}
                   style={{objectFit: 'cover', objectPosition: '50% 50%', boxShadow: '5px 5px 20px 0 rgba(0,0,0,0.4)'}}
                 />
               </Col>

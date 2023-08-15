@@ -46,7 +46,7 @@ export const NavbarMain = () => {
               }}
             >
               <img
-                src={process.env.PUBLIC_URL + "./img/logo-1.png"}
+                src={process.env.PUBLIC_URL + "./images/logo-1.png"}
                 alt="logo"
               />
             </Navbar.Brand>
@@ -68,7 +68,7 @@ export const NavbarMain = () => {
             <div>
               <PhoneIcon />+ 375-29-809-77-13
               <img
-                src={process.env.PUBLIC_URL + "./img/Viber.png"}
+                src={process.env.PUBLIC_URL + "./images/Viber.png"}
                 alt="Viber"
                 style={styleSocialImg}
               />
@@ -76,7 +76,7 @@ export const NavbarMain = () => {
             <div>
               <PhoneIcon />+ 375-33-606-37-05
               <img
-                src={process.env.PUBLIC_URL + "./img/Telegram.png"}
+                src={process.env.PUBLIC_URL + "./images/Telegram.png"}
                 alt="Telegram"
                 style={styleSocialImg}
               />

@@ -13,7 +13,7 @@ export const Footer = () => {
         <Row className={styles.roww}>
           <Col lg={6} md={6} className={styles.img_view}>
             <div>
-              <img src={process.env.PUBLIC_URL + "/img/logo-1.png"} alt={'logo'}/>
+              <img src={process.env.PUBLIC_URL + "/images/logo-1.png"} alt={'logo'}/>
             </div>
           </Col>
           <Col lg={{span: 10}} md={{span: 10, offset: 0}} sm={{span: 16, offset: 4}}>

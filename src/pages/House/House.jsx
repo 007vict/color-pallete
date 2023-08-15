@@ -1,6 +1,9 @@
 import styles from './House.module.scss'
-import {Slider} from "../../components/Slider/Slider";
 import {SectionContent} from "../../components";
+
+import "react-image-gallery/styles/css/image-gallery.css";
+import ImageGallery from "react-image-gallery";
+import {images} from "./dataImagesHouse";
 
 export const House = () => {
   return (
@@ -14,8 +17,12 @@ export const House = () => {
           <p>У нас есть большой опыт строительства,
             проконсультируем по выбору стройматериалов.</p>
         </div>
-        <div style={{}}>
-          <Slider />
+        <div style={{width: '100%'}}>
+          <ImageGallery items={images}
+                        showIndex={true}
+                        showBullets={true}
+                        slideOnThumbnailOver={true}
+          />
         </div>
       </SectionContent>
     </div>
