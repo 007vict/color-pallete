@@ -19,7 +19,7 @@ root.render(
       <BrowserRouter>
         <ParallaxProvider>
             <Routes>
-              <Route path="/example" element={<Example />} />
+              {/*<Route path="/example" element={<Example />} />*/}
               <Route path="/" element={<App />}>
                 <Route index element={<Home />} />
                 <Route path='house' element={<House />} />

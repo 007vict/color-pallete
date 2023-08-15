@@ -33,6 +33,7 @@ export const NavbarMain = () => {
           color: "#ffffff",
           backgroundColor: "#333333",
           padding: "15px 0",
+          display: "block"
         }}
       >
         <FlexboxGrid justify="space-around" align="middle">

@@ -9,7 +9,7 @@ import {FaViber} from "react-icons/fa";
 export const Footer = () => {
   return (
     <div style={{background: '#000000'}}>
-      <SectionContent style={{height: 145, display: 'flex', alignContent: 'center', padding: '10px 0'}}>
+      <SectionContent style={{minHeight: 145, display: 'flex', alignContent: 'center', padding: '10px 0'}}>
         <Row className={styles.roww}>
           <Col lg={6} md={6} className={styles.img_view}>
             <div>

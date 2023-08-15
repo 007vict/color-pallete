@@ -8,7 +8,7 @@ export const BlockRoof = () => {
   const refAnimation = useRef(null)
   return (
     <div>
-      <SectionContent ref={refAnimation} >
+      <SectionContent style={{display: 'flex'}} ref={refAnimation} >
         <Row className={styles.roww}>
           <Col className={styles.images} lg={13} md={24} >
             <div>

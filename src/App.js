@@ -6,7 +6,7 @@ export const App = () => {
   return (
     <>
       <NavbarMain />
-        <Outlet />
+      <Outlet/>
       <Footer />
     </>
   )
