@@ -10,7 +10,17 @@
     margin-bottom: 1rem;
   }
   p {
+    font-size: 1.12rem;
     width: 80%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .house {
+    p {
+      width: 100%;
+      text-align: justify;
+    }
   }
 }
