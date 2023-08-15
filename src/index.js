@@ -13,6 +13,7 @@ import {App} from "./App";
 import {Home} from "./pages/Home/Home"
 import {Roof} from "./pages/Roof/Roof";
 import {Clinker} from "./pages/Clinker/Clinker";
+import {Border} from "./pages/Border/Border";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,7 +27,8 @@ root.render(
                 <Route index element={<Home />} />
                 <Route path='house' element={<House />} />
                 <Route path='roof' element={<Roof />} />
-                <Route path='clinker' element={<Clinker />} />
+                <Route path='clinkers' element={<Clinker />} />
+                <Route path='border' element={<Border />} />
               </Route>
             </Routes>
         </ParallaxProvider>

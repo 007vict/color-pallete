@@ -20,7 +20,6 @@ export const House = () => {
         <div style={{width: '100%'}}>
           <ImageGallery items={images}
                         showIndex={true}
-                        showBullets={true}
                         slideOnThumbnailOver={true}
           />
         </div>
