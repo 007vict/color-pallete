@@ -22,7 +22,7 @@ export const Footer = () => {
           </Col>
           <Col sm={12} xs={3} className={styles.img_hide}>
             <div>
-              <img src={process.env.PUBLIC_URL + "/img/logo-1.png"} alt={'logo'}/>
+              <img src={process.env.PUBLIC_URL + "/images/logo-1.png"} alt={'logo'}/>
             </div>
           </Col>
           <Col lg={6} md={8} sm={12} xs={18} style={{ display: 'flex', justifyContent: 'flex-end' }}>
