@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/007vict/color-pallete/static/css/main.d1d6c67f.css",
-    "main.js": "/007vict/color-pallete/static/js/main.594a766e.js",
+    "main.js": "/007vict/color-pallete/static/js/main.0ab9a863.js",
     "static/js/787.225e38a9.chunk.js": "/007vict/color-pallete/static/js/787.225e38a9.chunk.js",
     "static/media/wallpaper.jpeg": "/007vict/color-pallete/static/media/wallpaper.b24b0617e9a5d336d2dc.jpeg",
     "index.html": "/007vict/color-pallete/index.html",
     "main.d1d6c67f.css.map": "/007vict/color-pallete/static/css/main.d1d6c67f.css.map",
-    "main.594a766e.js.map": "/007vict/color-pallete/static/js/main.594a766e.js.map",
+    "main.0ab9a863.js.map": "/007vict/color-pallete/static/js/main.0ab9a863.js.map",
     "787.225e38a9.chunk.js.map": "/007vict/color-pallete/static/js/787.225e38a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1d6c67f.css",
-    "static/js/main.594a766e.js"
+    "static/js/main.0ab9a863.js"
   ]
 }
