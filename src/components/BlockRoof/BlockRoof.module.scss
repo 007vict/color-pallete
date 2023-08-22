@@ -18,9 +18,9 @@
     position: relative;
     .img1 {
       position: absolute;
+      //content: "";
       width: 99%;
       height: auto;
-      content: "";
       top: -50px;
       left: -20px;
       z-index: -3;
@@ -32,8 +32,8 @@
   div {
     .img2 {
       position: absolute;
+      //content: "";
       width: 335px;
-      content: "";
       z-index: -2;
       border-radius: 20px;
     }
