@@ -1,0 +1,29 @@
+.header {
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  //width: 160px;
+  //height: 60px;
+  background-image: url("../../../public/images/logo-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a span {
+    color: #ffffff;
+  }
+}
