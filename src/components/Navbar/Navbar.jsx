@@ -42,10 +42,11 @@ export const NavbarMain = () => {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                ailignItems: "center",
+                alignItems: "center",
               }}
             >
               <img
+                width={60}
                 src={process.env.PUBLIC_URL + "./images/logo-1.png"}
                 alt="logo"
               />
